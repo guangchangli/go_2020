@@ -1,9 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func main(){
+func main() {
 
+	/**
+		格式化输出
+	 */
 	print("print")
 	print("\n")
 	print("%T 打印完成类型信息")
@@ -15,9 +20,9 @@ func main(){
 	print("%d 十进制表示")
 	println("%s string []byte字符表示")
 	println("")
-	fmt.Println("%T","asd123__" )
-	fmt.Println("%#v","asd123__" )
-	fmt.Println("%+v","asd123__" )
+	fmt.Println("%T", "asd123__")
+	fmt.Println("%#v", "asd123__")
+	fmt.Println("%+v", "asd123__")
 	fmt.Println("%%")
 	//todo panic defer
 }
