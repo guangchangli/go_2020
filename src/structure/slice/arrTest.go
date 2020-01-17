@@ -56,5 +56,10 @@ func main() {
 	for index :=range ints  {
 		fmt.Printf("use one element default ignore value : key:%d  value:%d \n",index)
 	}
+	ns:=[]int{4:5}
+	println(len(ns))
+	for index,value:=range ns{
+		fmt.Printf("ns index: %d,value: %d\n",index,value)
+	}
 
 }
