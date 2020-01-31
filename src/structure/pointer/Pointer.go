@@ -16,6 +16,7 @@ func main() {
 	//println(time.Now().Date())
 	//println(time.Now().Clock())
 	println(time.Now().Day())
+
 	defer println("hello")
 	println("world")
 	testDefer()
