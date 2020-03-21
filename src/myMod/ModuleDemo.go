@@ -11,5 +11,5 @@ func main() {
 		return c.String(http.StatusOK, "hello,world!")
 	})
 
-	e.logger.Fatal(e.Start(":123"))
+	e.Logger.Fatal(e.Start(":123"))
 }
